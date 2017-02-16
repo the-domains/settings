@@ -1,0 +1,28 @@
+name: settings
+analytics:
+  facebook: ''
+  google: ''
+  twitter: ''
+content_rating:
+  adult: false
+github: true
+description: ''
+opengraph:
+  type: ''
+  appId: ''
+title: ''
+author:
+  name: ''
+  url: ''
+  email: ''
+color:
+  lightness: 0.07061159030315736
+  brandColors:
+    - '#FF5335'
+    - '#B39C85'
+    - '#306E73'
+    - '#3B424D'
+    - '#1D181F'
+  saturation: 0.7742802735358197
+  brandStrength: 0.1113237629438107
+  rhythmicContrast: 0.4901246033818751
