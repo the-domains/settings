@@ -1,20 +1,28 @@
-name: settings
+name: s
 analytics:
   facebook: ''
-  google: ''
   twitter: ''
-content_rating:
-  adult: false
+  google: ''
 github: true
 description: ''
-opengraph:
-  type: ''
-  appId: ''
-title: ''
 author:
   name: ''
   url: ''
   email: ''
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+content: []
+layout_spectrum: 0.5
 color:
   lightness: 0.07061159030315736
   brandColors:
@@ -26,3 +34,10 @@ color:
   saturation: 0.7742802735358197
   brandStrength: 0.1113237629438107
   rhythmicContrast: 0.4901246033818751
+content_rating:
+  adult: false
+typography_spectrum: 0.5
+opengraph:
+  type: ''
+  appId: ''
+title: ''
